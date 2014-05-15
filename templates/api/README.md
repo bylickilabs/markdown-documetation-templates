@@ -21,7 +21,8 @@ Returns a collection of user objects
 [GET] `/api/user`
 
 #### Response
-```
+
+```JSON
 
 	{
 		[
@@ -47,7 +48,8 @@ Returns a user object
 [GET] `/api/user/1`
 
 #### Response
-```
+
+```JSON
 
 	{
 		 {
@@ -65,7 +67,7 @@ Returns a user object
 
 ## Object
 
-```
+```JSON
 
 	{
 
