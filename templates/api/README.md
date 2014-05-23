@@ -32,7 +32,7 @@ Returns a collection of user objects
 				email: mickey@mouse.com
 			},
 			{
-				id: ,
+				id: 2,
 				name: Minnie Mouse,
 				email: minnie@mouse.com
 			}
