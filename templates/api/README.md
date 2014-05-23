@@ -22,7 +22,7 @@ Returns a collection of user objects
 
 #### Response
 
-```JSON
+```json
 
 	{
 		[
