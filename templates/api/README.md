@@ -49,7 +49,7 @@ Returns a user object
 
 #### Response
 
-```JSON
+```javascript
 
 	{
 		 {
@@ -67,7 +67,7 @@ Returns a user object
 
 ## Object
 
-```JSON
+```javascript
 
 	{
 
