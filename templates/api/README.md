@@ -27,14 +27,14 @@ Returns a collection of user objects
 	{
 		[
 			 {
-				id: 1,
-				name: Mickey Mouse,
-				email: mickey@mouse.com
+				"id": 1,
+				"name": "Mickey Mouse",
+				"email": "mickey@mouse.com"
 			},
 			{
-				id: 2,
-				name: Minnie Mouse,
-				email: minnie@mouse.com
+				"id": 2,
+				"name": "Minnie Mouse",
+				"email": "minnie@mouse.com"
 			}
 		]
 	}
@@ -53,9 +53,9 @@ Returns a user object
 
 	{
 		 {
-			id: 1,
-			name: Mickey Mouse,
-			email: mickey@mouse.com
+			"id": 1,
+			"name": "Mickey Mouse",
+			"email": "mickey@mouse.com"
 		}
 	}
 
@@ -71,10 +71,10 @@ Returns a user object
 
 	{
 
-		user: {
-			id: {int},
-			name: {string},
-			email: {string}
+		"user": {
+			"id": {int},
+			"name": {string},
+			"email": {string}
 		}
 	}
 
