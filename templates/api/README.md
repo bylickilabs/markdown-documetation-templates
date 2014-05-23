@@ -35,7 +35,7 @@ Returns a collection of user objects
 				id: ,
 				name: Minnie Mouse,
 				email: minnie@mouse.com
-			},
+			}
 		]
 	}
 
