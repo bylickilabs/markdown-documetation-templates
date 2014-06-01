@@ -1,27 +1,18 @@
 # Definition of Done
 
-## Stage 1
-1. All Acceptance tests (scenarios) met
-2. Automated Acceptance tests have been built and have run and passed on local
-3. Unit tests have been built for all new or changed components
-4. All unit tests have run and passed
+## Developer
+1. Unit tests pass locally & on Continuous Integration (CI)
+2. Functional & Integration tests pass locally & on Continuous Integration (CI)
+3. Acceptance tests pass locally & on Continuous Integration (CI)
+4. Static Code analysis & Code Coverage is checked & made sure, keeping to team standards including `documentation`
+5. Pull Request created for Peer Review - once accepted, merge into `master` - all automated tests will run again
+6. If `Step 5` is successful , `Tag` is automatically created & deployed to Team Dev Environment
 
-## Stage 2
-5. Code review has been done by another member of the team (either pull request - review; or pairing)
-6. Code checked in to master and all tests pass
-5. Static Code analysis tools have been run and and the results included in code review
-7. Code must meet the coding standards of the project ie:
-    - Improve code coverage
-    - Add to docs in git hub
-    - Improve static analysis results (no majors)
-8. Code has been merged into Master
-9. Code has been deployed to CI environment
-10. No builds are broken
-11. Tag created
-12. Code (tag) has been pushed to Test
+## Tester
+1. Deploy desired `Tag` to Test Environment 
 
-## Stage 3
-13. Story accepted by the Product Owner
-14. Any outstanding observations / potential defects have been agreed by the Product Owner as not needing fixing in the current sprint
-15. All applicable non-functional tests have been run
+## Client
+1. Story accepted by the Product Owner
+2. Any outstanding observations / potential defects have been agreed by the Product Owner as not needing fixing in the current sprint
+3. All applicable non-functional tests have been run
 
